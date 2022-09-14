@@ -30,6 +30,10 @@ html {
     overflow-x: hidden;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 a {
     color: #f0f0f0;
 }
@@ -223,12 +227,14 @@ h2#diff {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
 }
 
 #iframe iframe {    
     border-radius: 10px;
     border: 5px solid #68ad3a;
     box-shadow: 10px 10px 10px #000000;
+    overflow: hidden;
 }
 
 /* Membros */
