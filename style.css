@@ -205,7 +205,7 @@ nav a.a:hover::after{
     display: flex;
     height: 90vh;
     justify-content: space-around;
-    padding: 0 13vw;  
+    padding: 13vw;  
     background-color: #0f0f0f;
     gap: 10vw;
     overflow-x: hidden;
