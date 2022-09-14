@@ -124,6 +124,8 @@ nav a.a:hover::after{
 
 #header {
     display: flex;
+    position: fixed;
+    top: 0;
     width: 100vw;
     height: 70px;
     justify-content: space-around;
@@ -131,6 +133,7 @@ nav a.a:hover::after{
     background-color: #0f0f0f;
     justify-content: space-between;
     padding: 0 13vw;  
+    z-index: 100000;
 }
 
 #logou {
@@ -205,6 +208,7 @@ nav a.a:hover::after{
     padding: 0 13vw;  
     background-color: #0f0f0f;
     gap: 10vw;
+    overflow-x: hidden;
 }
 
 h2#diff {
@@ -227,7 +231,6 @@ h2#diff {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow: hidden;
 }
 
 #iframe iframe {    
